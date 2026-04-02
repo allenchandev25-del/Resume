@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | ALLEN</title>
+    <meta name="description"
+        content="Resume of ALLEN, a Software Engineer specializing in React, TypeScript, and Edge Computing.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="resume-wrapper">
+        <header class="resume-header">
+            <div class="header-main">
+                <h1 class="name">ALLEN CHANDEV</h1>
+                <p class="title"></p>
+                <div class="contact-grid">
+                    <a href="mailto:allenchandev25@gmail.com"><i class="ph ph-envelope"></i>
+                        allenchandev25@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/allen-chandev-36100a347/"><i class="ph ph-linkedin-logo"></i>
+                        LinkedIn</a>
+                    <a href="https://github.com/allenchandev25-del"><i class="ph ph-github-logo"></i> GitHub</a>
+                    <span><i class="ph ph-map-pin"></i> Coimbatore</span>
+                    <span><i class="ph ph-phone"></i> 9487432081</span>
+                </div>
+            </div>
+            <div class="header-actions no-print">
+                <button onclick="window.print()" class="btn-print"><i class="ph ph-printer"></i> Download PDF</button>
+            </div>
+        </header>
+
+        <div class="resume-body">
+            <div class="main-column">
+                <!-- Education -->
+                <section class="resume-section section-education">
+                    <h2 class="section-title"><i class="ph ph-graduation-cap"></i> Education</h2>
+                    <div class="section-content">
+                        <div class="education-entry">
+                            <div class="entry-header">
+                                <h3>St Hilda's School Ooty</h3>
+                                <span class="date">2019 - 2025</span>
+                            </div>
+                            <p class="degree">ICSE</p>
+                        </div>
+                        <div class="education-entry">
+                            <div class="entry-header">
+                                <h3>Karunya Institute of Technology and Sciences</h3>
+                                <span class="date">2025 - 2029</span>
+                            </div>
+                            <p class="degree">B.Tech Computer Science Engineering</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Skills -->
+                <section class="resume-section section-skills">
+                    <h2 class="section-title"><i class="ph ph-faders"></i> Technical Skills</h2>
+                    <div class="section-content">
+                        <div class="skills-grid">
+                            <div class="skill-group">
+                                <h4>Languages</h4>
+                                <p>TypeScript, JavaScript, Python, C/C++, HTML/CSS</p>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Frameworks</h4>
+                                <p>React, Vite, Flask, Tailwind CSS, Tkinter</p>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Tools</h4>
+                                <p>Ollama, Firebase, Git/GitHub, VS Code</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects -->
+                <section class="resume-section section-projects">
+                    <h2 class="section-title"><i class="ph ph-rocket-launch"></i> Featured Projects</h2>
+                    <div class="section-content">
+                        <!-- 1. PathX -->
+                        <div class="project-entry">
+                            <div class="entry-header">
+                                <div class="project-title-wrapper">
+                                    <h3>PathX</h3>
+                                    <p class="project-brief">Autonomous Vehicle Simulator</p>
+                                </div>
+                                <span class="tech-stack">React 19, TypeScript, Vite 6, Motion</span>
+                            </div>
+                            <ul>
+                                <li>Engineered a high-fidelity simulator leveraging <strong>Kinematic Bicycle
+                                        Models</strong> and <strong>Pure Pursuit algorithms</strong> at 60Hz.</li>
+                                <li>Implemented mathematical foundations using <strong>PDEs</strong> for state change
+                                    modeling and <strong>Laplace Transforms</strong> for control system stability.</li>
+                                <li>Designed a premium dark-mode dashboard with real-time telemetry visualization using
+                                    <strong>D3-driven logic</strong>.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- 2. Lumina AI Assistant -->
+                        <div class="project-entry">
+                            <div class="entry-header">
+                                <div class="project-title-wrapper">
+                                    <h3>Lumina AI Assistant</h3>
+                                    <p class="project-brief">Privacy-First AI Tutoring Platform</p>
+                                </div>
+                                <span class="tech-stack">React, TypeScript, Ollama (Llama-3)</span>
+                            </div>
+                            <ul>
+                                <li>Architected a privacy-first AI platform by migrating external API dependencies to
+                                    <strong>locally-hosted inference pipelines (Ollama)</strong>.
+                                </li>
+                                <li>Integrated speech-to-text mapping and dynamic interactive Flashcards directly from
+                                    LLM inferences.</li>
+                                <li>Developed a sophisticated React frontend with state-driven conversational UI logic.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- 3. Edgelytics -->
+                        <div class="project-entry">
+                            <div class="entry-header">
+                                <div class="project-title-wrapper">
+                                    <h3>Edgelytics</h3>
+                                    <p class="project-brief">Edge Computing IoT Framework</p>
+                                </div>
+                                <span class="tech-stack">Python, Flask, Arduino DHT22</span>
+                            </div>
+                            <ul>
+                                <li>Constructed an edge-computing framework to ingest and manage real-time telemetry
+                                    from Arduino microcontrollers.</li>
+                                <li>Implemented a <strong>local anomaly-detection algorithm</strong> to trace impossible
+                                    environmental data spikes.</li>
+                                <li>Integrated device metrics through a scalable Python Flask backend to a live
+                                    dashboard.</li>
+                            </ul>
+                        </div>
+
+                        <!-- 4. Emergency Geo-Router -->
+                        <div class="project-entry">
+                            <div class="entry-header">
+                                <div class="project-title-wrapper">
+                                    <h3>Emergency Geo-Router</h3>
+                                    <p class="project-brief">Fault-Tolerant Redundant Routing System</p>
+                                </div>
+                                <span class="tech-stack">Geolocation API, React</span>
+                            </div>
+                            <ul>
+                                <li>Deployed a fault-tolerant routing application to triangulate and transmit location
+                                    data in offline-critical environments.</li>
+                                <li>Wrote robust handling algorithms to detect low-accuracy GPS metrics and execute
+                                    cascading fallbacks.</li>
+                            </ul>
+                        </div>
+
+                        <!-- 5. NextChapter -->
+                        <div class="project-entry">
+                            <div class="entry-header">
+                                <div class="project-title-wrapper">
+                                    <h3>NextChapter</h3>
+                                    <p class="project-brief">Personalized Content Recommendation System</p>
+                                </div>
+                                <span class="tech-stack">Python, Tkinter</span>
+                            </div>
+                            <ul>
+                                <li>Refactored a desktop-based Python application handling complex graphical frame
+                                    life-cycles and state management.</li>
+                                <li>Re-architected the state pipeline for a personalized content recommendation engine
+                                    using optimized object structures.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="sidebar-column">
+                <!-- About / Summary Section (Compact) -->
+                <section class="resume-section section-about">
+                    <h2 class="section-title"><i class="ph ph-user-circle"></i>Profile Summary</h2>
+                    <div class="section-content">
+                        <p class="about-text">
+                            B.Tech CS student at Karunya University with a focus on high-fidelity simulation, AI
+                            platform architecture, and innovative engineering solutions. Dedicated to building secure,
+                            scalable, and impactful technical systems.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
