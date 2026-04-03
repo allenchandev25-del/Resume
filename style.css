@@ -341,10 +341,6 @@
     }
 }
 
-
-
-
-/* Print Optimization - Standard 1-Page Line-by-Line Style */
 @media print {
     @page {
         margin: 1.2cm 1cm 1cm 1cm;
