@@ -416,7 +416,12 @@
         color: black !important;
     }
 
-    .contact-grid a, .contact-grid span {
+    .contact-grid a {
+        color: #007AFF !important;
+        text-decoration: underline !important;
+    }
+
+    .contact-grid span {
         color: black !important;
         text-decoration: none !important;
     }
