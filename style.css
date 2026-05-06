@@ -86,9 +86,15 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 15px 35px;
+        gap: 8px 16px;
         font-size: 0.9rem;
         color: var(--muted);
+    }
+
+    .contact-grid strong {
+        color: #a5b4fc;
+        font-weight: 700;
+        margin-right: 4px;
     }
 
     .contact-grid a {
@@ -401,11 +407,17 @@
         display: flex !important;
         justify-content: center !important;
         flex-wrap: wrap !important;
-        gap: 3pt 10pt !important;
-        font-size: 8pt !important;
+        gap: 2pt 8pt !important;
+        font-size: 7.5pt !important;
         color: #333 !important;
-        max-width: 95% !important;
+        max-width: 100% !important;
         margin: 0 auto !important;
+    }
+
+    .contact-grid strong {
+        font-weight: 800 !important;
+        color: #000 !important;
+        margin-right: 2pt !important;
     }
 
     .contact-grid a, .contact-grid span {
